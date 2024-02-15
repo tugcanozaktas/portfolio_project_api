@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "node_modules"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/contact",
+        "dest": "server.js"
+      }
+    ]
+  }
